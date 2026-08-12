@@ -36,6 +36,26 @@ Phase 0 ist abgeschlossen, wenn:
 - ein Captain's Review durchgeführt wurde
 - der Einstiegspunkt für Phase 1 dokumentiert ist
 
+## Captain's Review
+
+Phase 0 wurde erfolgreich abgeschlossen.
+
+Verstanden und praktisch durchgeführt:
+
+- lokale und entfernte Git-Repositorys verbunden
+- minimale Repository-Struktur hergestellt
+- `.gitignore` für lokale und reproduzierbare Artefakte eingerichtet
+- .NET Solution erstellt
+- C# Console Project erstellt
+- Project der Solution hinzugefügt
+- Anwendung erfolgreich ausgeführt
+- Solution erfolgreich gebaut
+- grundlegende .NET-Build-Kette nachvollzogen
+- Unterschied zwischen Solution und Project geklärt
+
+Offene Vertiefungen wie CLR, Assemblies, JIT-Details und Build-System
+werden bei praktischem Bedarf erneut aufgegriffen.
+
 ## Status
 
-In Arbeit.
+Abgeschlossen.

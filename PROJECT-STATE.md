@@ -1,65 +1,76 @@
-# SEA Pirates – Project State
+ï»¿# SEA Pirates â€“ Project State
 
 ## Aktuelle Phase
 
-**Phase 0 – The First Boot**
+**Phase 0 â€“ The First Boot**
 
-Status: In Arbeit
+Status: Abgeschlossen
 
-## Ziel der aktuellen Phase
+## Ziel der Phase
 
-Eine reproduzierbare und nachvollziehbare Ausgangsbasis für SEA Pirates
-und die spätere Entwicklung der SEA Academy herstellen.
+Eine reproduzierbare und nachvollziehbare Ausgangsbasis fÃ¼r SEA Pirates
+und die spÃ¤tere Entwicklung der SEA Academy herstellen.
 
-## Aktueller technischer Stand
+## Technischer Stand
 
-- Visual Studio Community 2022 17.14.37 installiert
-- C#-Werkzeuge verfügbar
-- .NET SDK 9.0.316 installiert
-- Git 2.54.0 installiert
-- GitHub-Repository `sea-pirates` angelegt
-- lokales Repository mit `origin` verbunden
+- Visual Studio Community 2022 17.14.37
+- C#-Werkzeuge verfÃ¼gbar
+- .NET SDK 9.0.316
+- Git 2.54.0
+- GitHub-Repository `sea-pirates`
 - Branch `main`
-- noch kein Anwendungsprojekt angelegt
+- `SeaPirates.sln` im Repository-Root
+- Console-Projekt `src/SeaPirates/SeaPirates.csproj`
+- Target Framework `net9.0`
+- Build erfolgreich
+- Anwendung Ã¼ber `dotnet run` ausfÃ¼hrbar
+
+## Verstandene Grundlagen
+
+- Unterschied zwischen IDE, .NET SDK und .NET Runtime
+- Solution als Verbund zusammengehÃ¶riger Projects
+- Project als eigenstÃ¤ndig baubare Einheit
+- Aufgabe der `.csproj`
+- Zweck von `bin/` und `obj/`
+- grundlegende Build-Kette:
+  C# â†’ IL â†’ Assembly â†’ JIT â†’ Maschinencode â†’ CPU
 
 ## Festgelegte Entscheidungen
 
-- Hauptsprache des Lernprojekts ist C#.
-- Die Entwicklungsplattform basiert auf .NET.
-- Visual Studio wird als primäre IDE verwendet.
-- SEA Academy wird als kontinuierlich wachsendes Praxisprojekt entwickelt.
-- Architektur und Frameworks werden nicht vorzeitig festgelegt.
-- Lernen durch freie Lösungsfindung, Fehleranalyse und Reflexion ist ausdrücklich erwünscht.
-- SEA Pirates verwendet einen vereinfachten, bedarfsgerechten Dokumentationsstandard.
+- Hauptsprache: C#
+- Plattform: .NET
+- PrimÃ¤re IDE: Visual Studio
+- SEA Academy als kontinuierlich wachsendes Lernprojekt
+- Architektur und Frameworks werden nicht vorzeitig festgelegt
+- Lernen durch freie LÃ¶sungsfindung, Fehleranalyse und Reflexion
+- vereinfachter, bedarfsgerechter Dokumentationsstandard
 
-## Lernziel
+## PrÃ¼fungsziel
 
-Software-Engineering-Konzepte sollen nicht nur wiedergegeben, sondern
-verstanden, erklärt und praktisch angewendet werden können.
+AP2 Fachinformatiker Anwendungsentwicklung am 25.11.2026.
 
-## Prüfungsziel
+ZusÃ¤tzlich wird grundsÃ¤tzlich eine alte PrÃ¼fung pro Woche bearbeitet,
+beginnend mit der zuletzt verfÃ¼gbaren PrÃ¼fung und anschlieÃŸend rÃ¼ckwÃ¤rts.
 
-Vorbereitung auf die AP2 Fachinformatiker Anwendungsentwicklung
-am 25.11.2026.
+## NÃ¤chste Phase
 
-Zusätzlich wird grundsätzlich eine alte Prüfung pro Woche bearbeitet,
-beginnend mit der zuletzt verfügbaren Prüfung und anschließend rückwärts.
+**Phase 1 â€“ Everything is an Object**
 
-## Nächste Schritte
+Geplante Themen:
 
-1. Foundation-Dokumentation V0.1 fertigstellen.
-2. Repository-Stand prüfen.
-3. Foundation committen und zu GitHub übertragen.
-4. Entwicklungsumgebung für das erste C#-Projekt verifizieren.
-5. Phase 0 abschließen.
-6. Captain's Review durchführen.
-7. Phase 1 beginnen.
+- Klasse und Objekt
+- Felder und Properties
+- Methoden
+- Konstruktoren
+- Sichtbarkeit
+- Kapselung
+- Referenzen
+- erste Codeanalyse
 
 ## Wiedereinstieg
 
-Bei Wiederaufnahme nach einer Pause zuerst dieses Dokument lesen.
-
-Danach die aktuelle Phase unter `docs/phases/` prüfen.
-
-Keine technischen Entscheidungen aus Annahmen ableiten, wenn sie noch
-nicht dokumentiert oder gemeinsam erarbeitet wurden.
+1. `README.md` lesen, falls das Projekt unbekannt ist.
+2. `PROJECT-STATE.md` lesen.
+3. `docs/LEARNING-ROADMAP.md` prÃ¼fen.
+4. Phase 1 mit einem ersten eigenen DomÃ¤nenobjekt der SEA Academy beginnen.
+5. Keine Architektur vorwegnehmen.
